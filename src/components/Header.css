@@ -1,0 +1,8 @@
+.header {
+    background-color: rgb(27, 50, 82);
+    color: #fff;
+    text-align: left;
+    padding: 13px;
+    font-size: clamp(0px, 1.7vw, 100px);
+    /* padding-left: 1.4vw;  */
+}

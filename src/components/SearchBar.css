@@ -1,0 +1,13 @@
+.search-bar {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgb(27, 50, 82);
+    padding: 2.6%;
+    font-size: clamp(0px, 0.9vw, 100px);
+    color: #fff;
+  }
+
+  ::placeholder {
+    color: #fff;
+  }

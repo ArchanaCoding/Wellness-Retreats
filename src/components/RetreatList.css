@@ -1,0 +1,41 @@
+.retreat-list-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    padding-bottom: 1.5%;
+  }
+  
+  .pagination {
+    margin: 1% 0;
+  }
+  
+  .pagination button {
+    background-color: rgb(27, 50, 82);
+    color: #fff;
+    border: none;
+    padding: 0.8vw 1.4vw;
+    margin: 0 0.4vw;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: clamp(0px, 1vw, 100px);
+  }
+  
+  .pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  .sp {
+    display: flex;
+    justify-content: center;
+  }
+  span{
+    color: #030303ff;
+    font-size: clamp(0px, 0.9vw, 100px);
+    margin: 1%;
+  }
+
+  .btn{
+    display: flex;
+    justify-content: center;
+  }

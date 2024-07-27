@@ -1,0 +1,107 @@
+.retreat-card {
+  text-align: justify;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 0.8vw;
+  margin: 0.6vw;
+  background: #e0d9cf;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 29.8%;
+}
+
+
+.retreat-image {
+  width: 50%;
+  padding-top: 39.25%;
+  position: relative;
+  margin-bottom: 14px;
+}
+
+.retreat-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+h3 {
+  font-size: clamp(3px, 1.3vw, 100px);
+  margin-top: 0%;
+}
+
+
+p {
+  margin-top: 0%;
+  font-size: clamp(0px, 0.8vw, 100px);
+}
+
+
+@media (max-width: 1032px) {
+  .retreat-card {
+      max-width: 30%;
+
+  }
+}
+
+@media (max-width: 370px) {
+  .retreat-card {
+    max-width: 29.2%;
+
+  }
+} 
+
+@media (max-width: 147px) {
+  .retreat-card {
+    max-width: 27.6%;
+
+  }
+} 
+
+
+@media (max-width: 610px) {
+  h3 {
+    margin-top: -4%;
+  }
+}
+
+@media (max-width: 418px) {
+  h3 {
+    margin-top: -5%;
+  }
+}
+
+@media (max-width: 350px) {
+  h3 {
+    margin-top: -9%;
+  }
+}
+
+@media (max-width: 230px) {
+  h3 {
+    margin-top: -15%;
+  }
+}
+
+@media (max-width: 208px) {
+  h3 {
+    margin-top: -19%;
+  }
+}
+
+@media (max-width: 154px) {
+  h3 {
+    margin-top: -25%;
+  }
+}
+
+@media (max-width: 119px) {
+  h3 {
+    margin-top: -34%;
+  }
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
+.app {
+  font-family: "Source Sans Pro";
+  margin: 0;
+  padding: 0;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.con1{
+  width: 70%;
+}
+
+
+.con2{
+  width: 30%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0% 1.5%;
+  
+}
+
+.retreat-list {
+  display: flex;
+  justify-content: center;
+}
